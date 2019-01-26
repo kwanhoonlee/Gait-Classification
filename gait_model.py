@@ -19,7 +19,11 @@ config = {
           }
 
 
-gait = Gait(config)
-X, Y, x, y = gait.data()
-pipeline = gait.pipeline()
-gait.learn_predict(X,Y,x,y,pipeline)
+for i in range(10):
+    gait = Gait(config)
+    X, Y, x, y = gait.data()
+    pipeline = gait.pipeline()
+    confusion_matrix, accuracy = gait.learn_predict(X, Y, x, y, pipeline, i)
+
+    gait.plot_confusion_matrix(confusion_matrix, title='Confusion matrix_' + str(i)+ "_" + str(round(accuracy,3)))
+    gait.plot_confusion_matrix(confusion_matrix, normalize=True, title='Normalized confusion matrix_'+ str(i)+ "_" + str(round(accuracy,3)))

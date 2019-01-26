@@ -29,8 +29,8 @@ def deep_model(optimizer='rmsprop', init='glorot_uniform', loss='categorical_cro
 load_data = pandas.read_excel('./data/Gait_20190126.xlsx', header=0)
 
 load_data = shuffle(load_data)
-X = load_data.iloc[:, 1:]
-Y = load_data['Subject_Group']
+X = load_data.iloc[:config['train'], 1:]
+Y = load_data['Subject_Group'][:config['train']]
 
 num_columns = X.shape[1]
 

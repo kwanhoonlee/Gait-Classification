@@ -16,7 +16,7 @@ from sklearn.model_selection import cross_val_score, StratifiedKFold
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
 from sklearn.utils import shuffle
-from sklearn.metrics import confusion_matrix
+from sklearn.metrics import confusion_matrix, accuracy_score
 from datetime import datetime
 
 class Gait():
@@ -70,16 +70,19 @@ class Gait():
 
         self.record(result)
 
-    def learn_predict(self, X, Y, x, y, pipeline):
+    def learn_predict(self, X, Y, x, y, pipeline, i):
         pipeline_fit = pipeline.fit(X, Y)
 
-        with open(self.config['model_path']+datetime.now().strftime('%m-%d_%H_%M')+".pickle", 'wb') as handle:
+        with open(self.config['model_path']+str(i)+"_"+datetime.now().strftime('%m-%d_%H_%M')+".pickle", 'wb') as handle:
             pickle.dump(pipeline_fit, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
         yhat = list(pipeline_fit.predict(x))
         y = list(y)
 
-        return confusion_matrix(y, yhat)
+        accuracy = accuracy_score(y, yhat)
+
+        print("Accuracy", accuracy)
+        return confusion_matrix(y, yhat), accuracy
 
     def plot_confusion_matrix(self, cm,
                               normalize=False,
