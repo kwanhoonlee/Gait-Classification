@@ -39,7 +39,7 @@ load_data = pandas.read_excel("Alldata_20180202.xlsx", header = 0 )
 
 itr = load_data.shape[1] - 1
 # for i in range(itr) :
-for i in range(10):
+for i in range(1):
     load_data = shuffle(load_data)
     X = load_data.iloc[:, 40:]
     Y = load_data['Subject_Group']
