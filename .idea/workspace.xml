@@ -2,78 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a94dfc71-04bd-4a27-8b14-34e233e763c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gait.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gait_gridsearch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alldata_20180202.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/2018/Alldata_20180202.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foot_classification.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foot_regression.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/mse/predictions_dm_09-17_21_13_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/mse/predictions_dm_09-17_21_15_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/mse/predictions_dm_09-17_21_16_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/mse/predictions_dm_09-17_21_18_3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/mse/predictions_dm_09-17_21_20_4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/mse/predictions_dm_09-17_21_23_5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/mse/predictions_dm_09-17_21_26_6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/mse/predictions_dm_09-17_21_29_7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/mse/predictions_dm_09-17_21_32_8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/mse/predictions_dm_09-17_21_35_9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/mse/predictions_dm_09-17_21_39_10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/predictions_dm_09-17_22_09_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/predictions_dm_09-17_22_10_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/predictions_dm_09-17_22_12_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/predictions_dm_09-17_22_13_3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/predictions_dm_09-17_22_15_4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/predictions_dm_09-17_22_17_5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy/predictions_dm_09-17_22_21_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy/predictions_dm_09-17_22_22_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy/predictions_dm_09-17_22_24_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy/predictions_dm_09-17_22_25_3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy/predictions_dm_09-17_22_27_4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy/predictions_dm_09-17_22_28_5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy/predictions_dm_09-17_22_30_6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy/predictions_dm_09-17_22_32_7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy/predictions_dm_09-17_22_34_8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy/predictions_dm_09-17_22_36_9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_BodySize&amp;Gait/predictions_dm_10-02_17_14_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_BodySize&amp;Gait/predictions_dm_10-02_17_15_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_BodySize&amp;Gait/predictions_dm_10-02_17_16_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_BodySize&amp;Gait/predictions_dm_10-02_17_16_3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_BodySize&amp;Gait/predictions_dm_10-02_17_17_4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_BodySize&amp;Gait/predictions_dm_10-02_17_19_5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_BodySize&amp;Gait/predictions_dm_10-02_17_20_6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_BodySize&amp;Gait/predictions_dm_10-02_17_21_7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_BodySize&amp;Gait/predictions_dm_10-02_17_23_8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_BodySize&amp;Gait/predictions_dm_10-02_17_24_9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_BodySize/predictions_dm_10-02_17_00_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_BodySize/predictions_dm_10-02_17_01_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_BodySize/predictions_dm_10-02_17_01_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_BodySize/predictions_dm_10-02_17_02_3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_BodySize/predictions_dm_10-02_17_03_4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_BodySize/predictions_dm_10-02_17_04_5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_BodySize/predictions_dm_10-02_17_06_6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_BodySize/predictions_dm_10-02_17_07_7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_BodySize/predictions_dm_10-02_17_09_8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_BodySize/predictions_dm_10-02_17_11_9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_Foot_Features/predictions_dm_10-02_16_03_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_Foot_Features/predictions_dm_10-02_16_03_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_Foot_Features/predictions_dm_10-02_16_04_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_Foot_Features/predictions_dm_10-02_16_05_3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_Foot_Features/predictions_dm_10-02_16_06_4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_Foot_Features/predictions_dm_10-02_16_07_5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_Foot_Features/predictions_dm_10-02_16_08_6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_Foot_Features/predictions_dm_10-02_16_10_7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_Foot_Features/predictions_dm_10-02_16_11_8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_Foot_Features/predictions_dm_10-02_16_13_9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_Gait_Features/predictions_dm_10-02_16_45_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_Gait_Features/predictions_dm_10-02_16_46_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_Gait_Features/predictions_dm_10-02_16_46_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_Gait_Features/predictions_dm_10-02_16_47_3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_Gait_Features/predictions_dm_10-02_16_48_4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_Gait_Features/predictions_dm_10-02_16_49_5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_Gait_Features/predictions_dm_10-02_16_51_6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_Gait_Features/predictions_dm_10-02_16_52_7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_Gait_Features/predictions_dm_10-02_16_54_8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sparse_categorical_crossentropy_Gait_Features/predictions_dm_10-02_16_55_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gait.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gait_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/gait_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gait_n_kfold.py" beforeDir="false" afterPath="$PROJECT_DIR$/gait_n_kfold.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/gait/k-fold/gait_01-27_02_18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/gait_n/k-fold/gait_n01-26_17_56_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/gait_n/k-fold/gait_n01-27_02_11_1.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,11 +20,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/gait_n_kfold.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="290">
-                  <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+                <state relative-caret-position="783">
+                  <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -112,6 +47,18 @@
               </provider>
             </entry>
           </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/gait_class.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="300">
+                  <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+                  <folding>
+                    <element signature="e#118#136#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -125,14 +72,20 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/gait.py">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/gait_model.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="580">
-                  <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-                  <folding>
-                    <element signature="e#127#139#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="532">
+                  <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gait_n_model.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="377">
+                  <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
@@ -143,18 +96,6 @@
                 <state>
                   <folding>
                     <element signature="e#1#14#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/gait_class.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-70">
-                  <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-                  <folding>
-                    <element signature="e#0#18#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -174,6 +115,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>num_columns</find>
+      <find>result</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -187,10 +129,14 @@
         <option value="$PROJECT_DIR$/gait_classification.py" />
         <option value="$PROJECT_DIR$/gait.py" />
         <option value="$PROJECT_DIR$/gait_function.py" />
-        <option value="$PROJECT_DIR$/gait_n_kfold.py" />
         <option value="$PROJECT_DIR$/gait_kfold.py" />
         <option value="$PROJECT_DIR$/gait_gridsearch.py" />
+        <option value="$PROJECT_DIR$/gait_learn.py" />
+        <option value="$PROJECT_DIR$/gait_n_learn.py" />
+        <option value="$PROJECT_DIR$/gait_n_kfold.py" />
         <option value="$PROJECT_DIR$/gait_class.py" />
+        <option value="$PROJECT_DIR$/gait_n_model.py" />
+        <option value="$PROJECT_DIR$/gait_model.py" />
       </list>
     </option>
   </component>
@@ -210,22 +156,6 @@
             <path>
               <item name="180125_footClassification" type="b2602c69:ProjectViewProjectNode" />
               <item name="180125_footClassification" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="180125_footClassification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="180125_footClassification" type="462c0819:PsiDirectoryNode" />
-              <item name="2018" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="180125_footClassification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="180125_footClassification" type="462c0819:PsiDirectoryNode" />
-              <item name="result" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="180125_footClassification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="180125_footClassification" type="462c0819:PsiDirectoryNode" />
-              <item name="result" type="462c0819:PsiDirectoryNode" />
-              <item name="gait" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -285,7 +215,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.33989638" />
+      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.33989638" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -326,25 +256,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2018/foot_regression.py">
+    <entry file="file://$PROJECT_DIR$/result/gait/plt/gait_01-27_02_38.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gait_kfold.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        <state relative-caret-position="580">
+          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gait.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        <state relative-caret-position="116">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#127#139#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/result/gait/plt/gait_01-27_02_38.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/2018/foot_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="131" column="9" selection-start-line="131" selection-start-column="9" selection-end-line="131" selection-end-column="9" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gait_gridsearch.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -355,27 +292,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gait_n_kfold.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gait_class.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="300">
+          <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#118#136#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gait_kfold.py">
+    <entry file="file://$PROJECT_DIR$/gait_n_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state relative-caret-position="377">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gait_n_kfold.py">
+    <entry file="file://$PROJECT_DIR$/gait_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        <state relative-caret-position="532">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>

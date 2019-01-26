@@ -1,0 +1,25 @@
+from gait_class import Gait
+
+file = "gait"
+
+config = {
+          "train":60,
+          "target":"Subject_Group",
+          "targetNames":["healthy","Athlates","Abnormal"],
+          "shape":27,
+          "seed":7,
+          "optimizer":"adam",
+          "init":"glorot_uniform",
+          "loss":"categorical_crossentropy",
+          "epochs":250,
+          "filename":"./data/" + file + "_20190126.xlsx",
+          "result_path":"./result/" + file + "/k-fold/" + file + "_",
+          "model_path":"./result/" + file + "/model/" + file + "_",
+          "plt_path":"./result/" + file + "/plt/" + file + "_"
+          }
+
+
+gait = Gait(config)
+X, Y, x, y = gait.data()
+pipeline = gait.pipeline()
+gait.learn_predict(X,Y,x,y,pipeline)

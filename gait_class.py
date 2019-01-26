@@ -7,6 +7,7 @@ import numpy as np
 import pandas
 import matplotlib.pyplot as plt
 import itertools
+import pickle
 
 from keras.models import Sequential
 from keras.layers import Dense
@@ -37,7 +38,7 @@ class Gait():
 
     def record(self, result):
         nowtxt = datetime.now().strftime('%m-%d_%H_%M')
-        fout_d = open(self.config['result_path'] + nowtxt + '.txt', 'a')
+        fout_d = open(self.config['kfold_path'] + nowtxt + '.txt', 'a')
         fout_d.write(("Accuracy: %.3f%% (%.3f%%)" % (result.mean()*100, result.std()*100)) + '\n')
 
 
@@ -70,9 +71,12 @@ class Gait():
         self.record(result)
 
     def learn_predict(self, X, Y, x, y, pipeline):
-        pipeline.fit(X, Y)
+        pipeline_fit = pipeline.fit(X, Y)
 
-        yhat = list(pipeline.predict(x))
+        with open(self.config['model_path']+datetime.now().strftime('%m-%d_%H_%M')+".pickle", 'wb') as handle:
+            pickle.dump(pipeline_fit, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+        yhat = list(pipeline_fit.predict(x))
         y = list(y)
 
         return confusion_matrix(y, yhat)
