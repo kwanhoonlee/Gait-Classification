@@ -22,6 +22,7 @@ config = {
 for i in range(10):
     gait = Gait(config)
     X, Y, x, y = gait.data()
+    model = gait.model()
     pipeline = gait.pipeline()
     confusion_matrix, accuracy = gait.learn_predict(X, Y, x, y, pipeline, i)
 

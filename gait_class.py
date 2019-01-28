@@ -17,12 +17,15 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
 from sklearn.utils import shuffle
 from sklearn.metrics import confusion_matrix, accuracy_score
+from sklearn.preprocessing import LabelEncoder
+from keras.utils import np_utils
 from datetime import datetime
 
 class Gait():
 
     def __init__(self, config):
         self.config = config
+
 
     def model(self):
 
@@ -36,13 +39,15 @@ class Gait():
         return model
 
 
-    def record(self, result):
+    def record(self, result, path):
+
         nowtxt = datetime.now().strftime('%m-%d_%H_%M')
-        fout_d = open(self.config['kfold_path'] + nowtxt + '.txt', 'a')
+        fout_d = open(path + nowtxt + '.txt', 'a')
         fout_d.write(("Accuracy: %.3f%% (%.3f%%)" % (result.mean()*100, result.std()*100)) + '\n')
 
 
     def data(self) :
+
         load_data = shuffle(pandas.read_excel(self.config['filename'], header=0))
 
         X = load_data.iloc[:self.config['train'], 1:]
@@ -53,6 +58,7 @@ class Gait():
 
         return X, Y, x, y
 
+
     def pipeline(self):
 
         estimators = []
@@ -61,6 +67,7 @@ class Gait():
 
         return Pipeline(estimators)
 
+
     def kfold(self, X, Y, pipeline):
 
         kfold = StratifiedKFold(n_splits=10, shuffle=True, random_state=self.config['seed'])
@@ -68,9 +75,11 @@ class Gait():
 
         print("Accuracy: %.3f%% (%.3f%%) " % (result.mean() * 100, result.std() * 100))
 
-        self.record(result)
+        self.record(result, self.config['kfold_path'])
+
 
     def learn_predict(self, X, Y, x, y, pipeline, i):
+
         pipeline_fit = pipeline.fit(X, Y)
 
         with open(self.config['model_path']+str(i)+"_"+datetime.now().strftime('%m-%d_%H_%M')+".pickle", 'wb') as handle:
@@ -83,6 +92,7 @@ class Gait():
 
         print("Accuracy", accuracy)
         return confusion_matrix(y, yhat), accuracy
+
 
     def plot_confusion_matrix(self, cm,
                               normalize=False,
@@ -122,3 +132,50 @@ class Gait():
         plt.savefig(self.config['plt_path'] + title + "_"+ nowtxt + ".png")
         plt.clf()
 
+
+    def training_result(self, X, Y, x, y):
+
+        scaler_X = StandardScaler()
+        scaler_X.fit(X)
+        X = scaler_X.transform(X)
+
+        scaler_x = StandardScaler()
+        scaler_x.fit(x)
+        x = scaler_x.transform(x)
+
+        model = self.model()
+        Y, y = self.encoding(Y, y)
+
+        history = model.fit(X, Y, epochs=self.config['epochs'], batch_size=1)
+
+        yhat = model.predict_classes(x)
+        accuracy = accuracy_score(y, yhat)
+        print("Test Accuracy", accuracy)
+        self.record(accuracy, self.config['train_path'])
+
+        return history, accuracy, confusion_matrix(y, yhat)
+
+
+    def encoding(self, Y, y):
+
+        encoder = LabelEncoder()
+        encoder.fit(Y)
+        encoded_Y = encoder.transform(Y)
+        dummy_Y = np_utils.to_categorical(encoded_Y)
+
+        encoded_y = encoder.transform(y)
+
+        return dummy_Y, encoded_y
+
+
+    def plot_training_history(self, history, title, i):
+
+        nowtxt = datetime.now().strftime('%m-%d_%H_%M')
+
+        plt.plot(history.history['acc'])
+        plt.plot(history.history['loss'])
+        plt.xlabel('epoch')
+        plt.legend(['accuracy', 'loss'], loc='lower left')
+        plt.title(title)
+        plt.savefig(self.config['plt_path'] + title + str(i)+ "_"+ nowtxt +".png")
+        plt.clf()
