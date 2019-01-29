@@ -24,7 +24,7 @@ for i in range(10):
     X, Y, x, y = gait.data()
     model = gait.model()
     pipeline = gait.pipeline()
-    confusion_matrix, accuracy = gait.learn_predict(X, Y, x, y, pipeline, i)
+    confusion_matrix, accuracy = gait.pipeline_fit_predict(X, Y, x, y, pipeline, i)
 
     gait.plot_confusion_matrix(confusion_matrix, title='Confusion matrix_' + str(i)+ "_" + str(round(accuracy,3)))
     gait.plot_confusion_matrix(confusion_matrix, normalize=True, title='Normalized confusion matrix_'+ str(i)+ "_" + str(round(accuracy,3)))

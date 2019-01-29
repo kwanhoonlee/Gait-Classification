@@ -78,7 +78,7 @@ class Gait():
         self.record(result, self.config['kfold_path'])
 
 
-    def learn_predict(self, X, Y, x, y, pipeline, i):
+    def pipeline_fit_predict(self, X, Y, x, y, pipeline, i):
 
         pipeline_fit = pipeline.fit(X, Y)
 
@@ -146,7 +146,7 @@ class Gait():
         model = self.model()
         Y, y = self.encoding(Y, y)
 
-        history = model.fit(X, Y, epochs=self.config['epochs'], batch_size=1)
+        history = model.fit(X, Y, validation_split=self.config['validation'], epochs=self.config['epochs'], batch_size=1, shuffle=True, verbose=0)
 
         yhat = model.predict_classes(x)
         accuracy = accuracy_score(y, yhat)
@@ -174,8 +174,26 @@ class Gait():
 
         plt.plot(history.history['acc'])
         plt.plot(history.history['loss'])
-        plt.xlabel('epoch')
-        plt.legend(['accuracy', 'loss'], loc='lower left')
+        plt.xlabel('Epoch')
+        plt.legend(['Accuracy', 'Loss'], loc='lower left')
         plt.title(title)
         plt.savefig(self.config['plt_path'] + title + str(i)+ "_"+ nowtxt +".png")
         plt.clf()
+
+    def plot_history(self, history, option, i ):
+
+        nowtxt = datetime.now().strftime('%m-%d_%H_%M')
+
+        plt.plot(history.history['acc'])
+        plt.plot(history.history["val_acc"])
+        plt.plot(history.history['loss'])
+        plt.plot(history.history["val_loss"])
+        plt.ylabel('cost')
+        plt.xlabel('epoch')
+        plt.legend(['acc', 'val_acc', 'loss', 'val_loss'], loc='lower left')
+        plt.title(option['title'])
+        plt.savefig(self.config['validation_path'] + option['title']+ "_" +str(i) + "_" + nowtxt +".png")
+        plt.clf()
+
+
+

@@ -4,6 +4,7 @@ file = "gait"
 
 config = {
     "train": 60,
+    "validation":0,
     "target": "Subject_Group",
     "targetNames": ["healthy", "Athlates", "Abnormal"],
     "shape": 27,

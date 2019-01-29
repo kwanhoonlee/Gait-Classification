@@ -2,50 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a94dfc71-04bd-4a27-8b14-34e233e763c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gait_n_train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gait_validation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gait_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/gait_class.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gait_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/gait_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait/plt/gait_Confusion matrix_0.951_7_01-27_05_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait/plt/gait_Confusion matrix_0.951_9_01-27_05_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait/plt/gait_Confusion matrix_0.976_0_01-27_05_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait/plt/gait_Confusion matrix_0.976_2_01-27_05_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait/plt/gait_Confusion matrix_0.976_3_01-27_05_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait/plt/gait_Confusion matrix_0.976_4_01-27_05_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait/plt/gait_Confusion matrix_0.976_6_01-27_05_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait/plt/gait_Confusion matrix_0.976_8_01-27_05_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait/plt/gait_Confusion matrix_1.0_1_01-27_05_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait/plt/gait_Confusion matrix_1.0_5_01-27_05_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait/plt/gait_Normalized confusion matrix_0.951_7_01-27_05_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait/plt/gait_Normalized confusion matrix_0.951_9_01-27_05_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait/plt/gait_Normalized confusion matrix_0.976_0_01-27_05_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait/plt/gait_Normalized confusion matrix_0.976_2_01-27_05_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait/plt/gait_Normalized confusion matrix_0.976_3_01-27_05_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait/plt/gait_Normalized confusion matrix_0.976_4_01-27_05_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait/plt/gait_Normalized confusion matrix_0.976_6_01-27_05_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait/plt/gait_Normalized confusion matrix_0.976_8_01-27_05_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait/plt/gait_Normalized confusion matrix_1.0_1_01-27_05_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait/plt/gait_Normalized confusion matrix_1.0_5_01-27_05_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait_n/plt/gait_n_Confusion matrix_0.902_3_01-27_05_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait_n/plt/gait_n_Confusion matrix_0.951_2_01-27_05_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait_n/plt/gait_n_Confusion matrix_0.951_4_01-27_05_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait_n/plt/gait_n_Confusion matrix_0.951_5_01-27_05_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait_n/plt/gait_n_Confusion matrix_0.951_8_01-27_05_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait_n/plt/gait_n_Confusion matrix_0.976_0_01-27_05_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait_n/plt/gait_n_Confusion matrix_0.976_6_01-27_05_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait_n/plt/gait_n_Confusion matrix_0.976_7_01-27_05_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait_n/plt/gait_n_Confusion matrix_1.0_1_01-27_05_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait_n/plt/gait_n_Confusion matrix_1.0_9_01-27_05_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait_n/plt/gait_n_Normalized confusion matrix_0.902_3_01-27_05_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait_n/plt/gait_n_Normalized confusion matrix_0.951_2_01-27_05_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait_n/plt/gait_n_Normalized confusion matrix_0.951_4_01-27_05_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait_n/plt/gait_n_Normalized confusion matrix_0.951_5_01-27_05_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait_n/plt/gait_n_Normalized confusion matrix_0.951_8_01-27_05_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait_n/plt/gait_n_Normalized confusion matrix_0.976_0_01-27_05_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait_n/plt/gait_n_Normalized confusion matrix_0.976_6_01-27_05_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait_n/plt/gait_n_Normalized confusion matrix_0.976_7_01-27_05_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait_n/plt/gait_n_Normalized confusion matrix_1.0_1_01-27_05_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/gait_n/plt/gait_n_Normalized confusion matrix_1.0_9_01-27_05_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gait_n_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/gait_n_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gait_n_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/gait_n_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gait_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/gait_train.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,8 +21,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gait_n_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="812">
-              <caret line="28" column="140" selection-start-line="28" selection-start-column="140" selection-end-line="28" selection-end-column="140" />
+            <state relative-caret-position="145">
+              <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gait_n_kfold.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -67,17 +39,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gait_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="657">
+              <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gait_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+            <state relative-caret-position="96">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gait_validation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="723">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -88,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gait_n_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
-              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+            <state relative-caret-position="174">
+              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -97,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gait_class.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1092">
-              <caret line="169" selection-start-line="169" selection-end-line="169" />
+            <state relative-caret-position="2662">
+              <caret line="182" column="26" selection-start-line="182" selection-start-column="26" selection-end-line="182" selection-end-column="26" />
               <folding>
                 <element signature="e#118#136#0" expanded="true" />
               </folding>
@@ -132,6 +116,7 @@
     <findStrings>
       <find>num_columns</find>
       <find>result</find>
+      <find>np</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -150,16 +135,18 @@
         <option value="$PROJECT_DIR$/gait_n_learn.py" />
         <option value="$PROJECT_DIR$/gait_n_kfold.py" />
         <option value="$PROJECT_DIR$/gait_gridsearch.py" />
-        <option value="$PROJECT_DIR$/gait_n_model.py" />
         <option value="$PROJECT_DIR$/gait_test.py" />
         <option value="$PROJECT_DIR$/gait_model.py" />
         <option value="$PROJECT_DIR$/gait_train.py" />
-        <option value="$PROJECT_DIR$/gait_class.py" />
         <option value="$PROJECT_DIR$/gait_n_train.py" />
+        <option value="$PROJECT_DIR$/gait_n_model.py" />
+        <option value="$PROJECT_DIR$/gait_validation.py" />
+        <option value="$PROJECT_DIR$/gait_class.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1280" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="1057" />
@@ -218,10 +205,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1057" extended-state="6" />
+    <frame x="1280" y="23" width="1280" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15714848" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3169182" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -234,7 +221,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.33989638" />
+      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.33989638" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -294,13 +281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gait_n_kfold.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gait_gridsearch.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="730">
@@ -308,13 +288,6 @@
           <folding>
             <element signature="e#1#14#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gait_n_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="28" column="140" selection-start-line="28" selection-start-column="140" selection-end-line="28" selection-end-column="140" />
         </state>
       </provider>
     </entry>
@@ -328,25 +301,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gait_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="657">
+          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gait_class.py">
+    <entry file="file://$PROJECT_DIR$/gait_n_kfold.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="169" selection-start-line="169" selection-end-line="169" />
+        <state relative-caret-position="145">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gait_validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
-            <element signature="e#118#136#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gait_n_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gait_n_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        <state relative-caret-position="174">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
@@ -355,10 +342,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gait_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+        <state relative-caret-position="96">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gait_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2662">
+          <caret line="182" column="26" selection-start-line="182" selection-start-column="26" selection-end-line="182" selection-end-column="26" />
+          <folding>
+            <element signature="e#118#136#0" expanded="true" />
           </folding>
         </state>
       </provider>
