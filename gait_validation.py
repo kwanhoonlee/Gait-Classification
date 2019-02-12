@@ -21,16 +21,35 @@ config = {
     "validation_path":"./result/" + file+ "/validation/" + file + "_",
 }
 
-option = {
-    "title" : "Training&Validation",
+option_acc = {
+    "title" : "Model Accuracy",
     "cost" : "acc",
 }
 
+option_loss = {
+    "title" : "Model Loss",
+    "cost" : "loss"
+}
+
 np.random.seed(config['seed'])
+
+mean_confusion_matrix = np.zeros([3,3])
 
 for i in range(10):
     gait = Gait(config)
     X, Y, x, y = gait.data()
     history, accuracy, confusion_matrix = gait.training_result(X, Y, x, y)
 
-    gait.plot_history(history, option, i)
+    mean_confusion_matrix += confusion_matrix
+
+    gait.plot_history(history, option_acc, i)
+    gait.plot_history(history, option_loss, i)
+
+    gait.plot_confusion_matrix(confusion_matrix, title='Confusion matrix_' + str(i))
+    gait.plot_confusion_matrix(confusion_matrix, normalize=True, title='Normalized confusion matrix_' + str(i))
+
+mean_confusion_matrix = mean_confusion_matrix/5
+
+
+gait.plot_confusion_matrix(mean_confusion_matrix , title='Mean Confusion Matrix')
+gait.plot_confusion_matrix(mean_confusion_matrix , normalize=True, title='Mean Normalized Confusion Matrix')

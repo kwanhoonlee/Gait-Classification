@@ -117,7 +117,7 @@ class Gait():
         plt.xticks(tick_marks, classes, rotation=45)
         plt.yticks(tick_marks, classes)
 
-        fmt = '.2f' if normalize else 'd'
+        fmt = '.2f' if normalize else '.2f'
         thresh = cm.max() / 2.
         for i, j in itertools.product(range(cm.shape[0]), range(cm.shape[1])):
             plt.text(j, i, format(cm[i, j], fmt),
@@ -129,8 +129,9 @@ class Gait():
         plt.tight_layout()
         nowtxt = datetime.now().strftime('%m-%d_%H_%M')
 
-        plt.savefig(self.config['plt_path'] + title + "_"+ nowtxt + ".png")
+        plt.savefig(self.config['plt_path'] + title + "_"+ nowtxt + ".png", dpi=600)
         plt.clf()
+        plt.close()
 
 
     def training_result(self, X, Y, x, y):
@@ -177,23 +178,32 @@ class Gait():
         plt.xlabel('Epoch')
         plt.legend(['Accuracy', 'Loss'], loc='lower left')
         plt.title(title)
-        plt.savefig(self.config['plt_path'] + title + str(i)+ "_"+ nowtxt +".png")
+        plt.savefig(self.config['plt_path'] + title + str(i)+ "_"+ nowtxt +".png", dpi=400)
         plt.clf()
+        plt.close()
 
     def plot_history(self, history, option, i ):
 
         nowtxt = datetime.now().strftime('%m-%d_%H_%M')
 
-        plt.plot(history.history['acc'])
-        plt.plot(history.history["val_acc"])
-        plt.plot(history.history['loss'])
-        plt.plot(history.history["val_loss"])
-        plt.ylabel('cost')
-        plt.xlabel('epoch')
-        plt.legend(['acc', 'val_acc', 'loss', 'val_loss'], loc='lower left')
+        plt.plot(history.history[option['cost']])
+        plt.plot(history.history["val_" + option['cost']])
+
+        if option['cost'] == 'acc' :
+            plt.ylabel('Accuracy')
+            plt.legend(['train', 'validation'], loc='lower right')
+
+        else :
+            plt.ylabel('Loss')
+            plt.legend(['train', 'validation'], loc='upper right')
+
+        plt.xlabel('Epoch')
         plt.title(option['title'])
-        plt.savefig(self.config['validation_path'] + option['title']+ "_" +str(i) + "_" + nowtxt +".png")
+
+        plt.savefig(self.config['validation_path'] + option['title']+ "_" +str(i) + "_" + nowtxt +".png", dpi=600)
+
         plt.clf()
+        plt.close()
 
 
 

@@ -22,6 +22,7 @@ config = {
 
 np.random.seed(config['seed'])
 
+
 for i in range(10):
     gait = Gait(config)
     X, Y, x, y = gait.data()
